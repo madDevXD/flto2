@@ -49,6 +49,7 @@ jobs:
 
     - name: Flet Build APK
       run: |
+        pip install flet 
         # disable flutter analytics
         flet build apk --verbose    # adapt the command to your needs - https://flet.dev/docs/publish 
 
