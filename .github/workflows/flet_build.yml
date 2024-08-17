@@ -49,7 +49,7 @@ jobs:
 
     - name: Flet Build APK
       run: |
-        flutter config --no-analytics # disable flutter analytics
+        # disable flutter analytics
         flet build apk --verbose    # adapt the command to your needs - https://flet.dev/docs/publish 
 
     - name: Upload APK Artifact
